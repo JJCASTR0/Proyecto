@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Y</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Calculadora de la ecuación Y = X * Z + Z + X</h2>
+        <form id="calc-form">
+            <label for="x">Valor de X:</label>
+            <input type="number" id="x" name="x" required>
+            
+            <label for="z">Valor de Z:</label>
+            <input type="number" id="z" name="z" required>
+            
+            <button type="submit">Calcular</button>
+        </form>
+        <p id="result"></p>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
