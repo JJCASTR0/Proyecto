@@ -1,0 +1,42 @@
+/* Estilos generales de la pagina */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Define la tipografía general de la página */
+    --bs-body-line-height: 1.4; /* Define la altura de línea global del cuerpo */
+    --bs-body-bg: var(--bs-gray-100); /* Establece el color de fondo del cuerpo */
+}
+
+/* Contenedor principal */
+#main {
+    margin: 0 auto; /* Centra el contenedor en la pantalla */
+    padding: 10px; /* Agrega un poco de espacio dentro del contenedor */
+}
+
+/* Marco donde se muestra el contenido */
+#marco {
+    border-radius: 5px; /* Bordes redondeados para el contenedor */
+    border-style: solid; /* Establece un borde sólido */
+    border-color: gray; /* Color gris para el borde */
+    background-color: rgb(240, 243, 250); /* Color de fondo suave */
+    width: 90%; /* El marco ocupa el 90% del ancho disponible */
+    padding: 5px; /* Espaciado interno dentro del marco */
+}
+
+/* Estilos generales de la tabla */
+.table {
+    --bs-table-color: var(--bs-gray-600); /* Color de texto en la tabla */
+    --bs-table-bg: var(--bs-gray-100); /* Color de fondo en la tabla */
+    --bs-table-border-color: transparent; /* Sin borde visible */
+}
+
+/* Estilo para los botones de acción */
+.tarjeta {
+    padding: 10px; /* Espaciado dentro de la tarjeta */
+    font-family: Arial, Helvetica, sans-serif; /* Establece la tipografía para los botones */
+    font-size: 20px; /* Define el tamaño de la fuente */
+}
+
+/* Estilos de las etiquetas labels */
+label {
+    font-weight: bold; /* Hace que las etiquetas tengan texto en negrita */
+    padding: 5px; /* Agrega un pequeño espaciado alrededor del texto */
+}
